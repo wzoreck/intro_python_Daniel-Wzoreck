@@ -78,6 +78,21 @@ print(f'Número de palavras >= 5 com list comprehension: {len(lorem2)}')
 
 
 # 5) Usando list comprehension, crie uma lista com os multiplos de 3 de 0 ate 100
-
+multiplos = [i for i in range(0, 101) if i%3 == 0] #  Considerando que 0 é multiplo de todos os númeors naturais
+print()
+print("5) Usando list comprehension, crie uma lista com os multiplos de 3 de 0 ate 100")
+print(multiplos)
 
 # 6) Faca uma funcao para encontrar os numeros primos no intervalo [2, 10), mas nao utilize a clausula else do for
+print()
+print("6) Faca uma funcao para encontrar os numeros primos no intervalo (2, 10), mas nao utilize a clausula else do for")
+
+def primo(n):
+    for val in range(2,n):
+        if n % val == 0:
+            return False
+    return True
+        
+for val in range(2, 11):
+    if(primo(val)):
+        print(f'{val} é um número primo!')
