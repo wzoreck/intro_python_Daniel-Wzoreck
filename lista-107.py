@@ -12,6 +12,7 @@ print()
 print(dir(tuple))
 
 # 2) Faca um metodo para retornar apenas as diferencas entre as duas de metodos
+# Não entendi o enunciado!
 
 # 3) Adicione as coordenadas (latitude, longitude) para os dicts professor1, professor2 e professor3. Copie os dicts do arquivo 106.py. As coordenadas precisam ser inseparaveis e imutaveis.
 print()
